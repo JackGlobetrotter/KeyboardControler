@@ -48,8 +48,8 @@
 		36183E101B7F8453005606C7 /* KeyboardControlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardControlerTests.swift; sourceTree = "<group>"; };
 		36183E1E1B7F8D05005606C7 /* NodeInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeInterface.swift; sourceTree = "<group>"; };
 		3624E6951B7FA28700EE9A99 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
-		36D581001B8608F200B6EFB8 /* FirstRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstRun.swift; path = ../FirstRun.swift; sourceTree = "<group>"; };
-		36D581011B8608F200B6EFB8 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Settings.plist; path = ../Settings.plist; sourceTree = "<group>"; };
+		36D581001B8608F200B6EFB8 /* FirstRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstRun.swift; sourceTree = "<group>"; };
+		36D581011B8608F200B6EFB8 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
 		36D581041B8609AE00B6EFB8 /* apply.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = apply.js; sourceTree = "<group>"; };
 		36D581051B8609AE00B6EFB8 /* constants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = constants.json; sourceTree = "<group>"; };
 		36D581061B8609AE00B6EFB8 /* node */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = node; sourceTree = "<group>"; };
