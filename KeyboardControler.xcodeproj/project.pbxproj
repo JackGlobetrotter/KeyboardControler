@@ -11,6 +11,20 @@
 		36183E021B7F8453005606C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36183E011B7F8453005606C7 /* Images.xcassets */; };
 		36183E051B7F8453005606C7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36183E031B7F8453005606C7 /* MainMenu.xib */; };
 		36183E111B7F8453005606C7 /* KeyboardControlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36183E101B7F8453005606C7 /* KeyboardControlerTests.swift */; };
+		36183E1F1B7F8D05005606C7 /* NodeInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36183E1E1B7F8D05005606C7 /* NodeInterface.swift */; };
+		3624E6961B7FA28700EE9A99 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624E6951B7FA28700EE9A99 /* EventMonitor.swift */; };
+		3624E6991B7FA77600EE9A99 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624E6971B7FA77600EE9A99 /* SettingsView.swift */; };
+		3624E69A1B7FA77600EE9A99 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3624E6981B7FA77600EE9A99 /* SettingsView.xib */; };
+		36D581021B8608F200B6EFB8 /* FirstRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D581001B8608F200B6EFB8 /* FirstRun.swift */; };
+		36D581031B8608F200B6EFB8 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36D581011B8608F200B6EFB8 /* Settings.plist */; };
+		36D5810A1B8609AE00B6EFB8 /* apply.js in Resources */ = {isa = PBXBuildFile; fileRef = 36D581041B8609AE00B6EFB8 /* apply.js */; };
+		36D5810B1B8609AE00B6EFB8 /* constants.json in Resources */ = {isa = PBXBuildFile; fileRef = 36D581051B8609AE00B6EFB8 /* constants.json */; };
+		36D5810C1B8609AE00B6EFB8 /* node in Resources */ = {isa = PBXBuildFile; fileRef = 36D581061B8609AE00B6EFB8 /* node */; };
+		36D5810D1B8609AE00B6EFB8 /* node_modules in Resources */ = {isa = PBXBuildFile; fileRef = 36D581071B8609AE00B6EFB8 /* node_modules */; };
+		36D5810E1B8609AE00B6EFB8 /* setColor.js in Resources */ = {isa = PBXBuildFile; fileRef = 36D581081B8609AE00B6EFB8 /* setColor.js */; };
+		36D5810F1B8609AE00B6EFB8 /* setMode.js in Resources */ = {isa = PBXBuildFile; fileRef = 36D581091B8609AE00B6EFB8 /* setMode.js */; };
+		36D581121B860CF300B6EFB8 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 36D581111B860CF300B6EFB8 /* en.lproj */; };
+		36D581141B860D1F00B6EFB8 /* findKeyboard.js in Resources */ = {isa = PBXBuildFile; fileRef = 36D581131B860D1F00B6EFB8 /* findKeyboard.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +46,20 @@
 		36183E0A1B7F8453005606C7 /* KeyboardControlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardControlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36183E0F1B7F8453005606C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36183E101B7F8453005606C7 /* KeyboardControlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardControlerTests.swift; sourceTree = "<group>"; };
+		36183E1E1B7F8D05005606C7 /* NodeInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeInterface.swift; sourceTree = "<group>"; };
+		3624E6951B7FA28700EE9A99 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		3624E6971B7FA77600EE9A99 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3624E6981B7FA77600EE9A99 /* SettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		36D581001B8608F200B6EFB8 /* FirstRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstRun.swift; path = ../FirstRun.swift; sourceTree = "<group>"; };
+		36D581011B8608F200B6EFB8 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Settings.plist; path = ../Settings.plist; sourceTree = "<group>"; };
+		36D581041B8609AE00B6EFB8 /* apply.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = apply.js; sourceTree = "<group>"; };
+		36D581051B8609AE00B6EFB8 /* constants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = constants.json; sourceTree = "<group>"; };
+		36D581061B8609AE00B6EFB8 /* node */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = node; sourceTree = "<group>"; };
+		36D581071B8609AE00B6EFB8 /* node_modules */ = {isa = PBXFileReference; lastKnownFileType = folder; path = node_modules; sourceTree = "<group>"; };
+		36D581081B8609AE00B6EFB8 /* setColor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = setColor.js; sourceTree = "<group>"; };
+		36D581091B8609AE00B6EFB8 /* setMode.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = setMode.js; sourceTree = "<group>"; };
+		36D581111B860CF300B6EFB8 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		36D581131B860D1F00B6EFB8 /* findKeyboard.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = findKeyboard.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +101,17 @@
 		36183DFC1B7F8453005606C7 /* KeyboardControler */ = {
 			isa = PBXGroup;
 			children = (
+				36D581101B8609B700B6EFB8 /* node */,
 				36183DFF1B7F8453005606C7 /* AppDelegate.swift */,
+				36D581001B8608F200B6EFB8 /* FirstRun.swift */,
+				36183E1E1B7F8D05005606C7 /* NodeInterface.swift */,
+				36D581111B860CF300B6EFB8 /* en.lproj */,
 				36183E011B7F8453005606C7 /* Images.xcassets */,
 				36183E031B7F8453005606C7 /* MainMenu.xib */,
+				3624E6971B7FA77600EE9A99 /* SettingsView.swift */,
+				36D581011B8608F200B6EFB8 /* Settings.plist */,
+				3624E6981B7FA77600EE9A99 /* SettingsView.xib */,
+				3624E6951B7FA28700EE9A99 /* EventMonitor.swift */,
 				36183DFD1B7F8453005606C7 /* Supporting Files */,
 			);
 			path = KeyboardControler;
@@ -104,6 +140,20 @@
 				36183E0F1B7F8453005606C7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36D581101B8609B700B6EFB8 /* node */ = {
+			isa = PBXGroup;
+			children = (
+				36D581041B8609AE00B6EFB8 /* apply.js */,
+				36D581131B860D1F00B6EFB8 /* findKeyboard.js */,
+				36D581051B8609AE00B6EFB8 /* constants.json */,
+				36D581061B8609AE00B6EFB8 /* node */,
+				36D581071B8609AE00B6EFB8 /* node_modules */,
+				36D581081B8609AE00B6EFB8 /* setColor.js */,
+				36D581091B8609AE00B6EFB8 /* setMode.js */,
+			);
+			name = node;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,8 +236,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D581141B860D1F00B6EFB8 /* findKeyboard.js in Resources */,
+				3624E69A1B7FA77600EE9A99 /* SettingsView.xib in Resources */,
+				36D581121B860CF300B6EFB8 /* en.lproj in Resources */,
+				36D5810A1B8609AE00B6EFB8 /* apply.js in Resources */,
+				36D5810E1B8609AE00B6EFB8 /* setColor.js in Resources */,
+				36D5810D1B8609AE00B6EFB8 /* node_modules in Resources */,
+				36D5810C1B8609AE00B6EFB8 /* node in Resources */,
+				36D581031B8608F200B6EFB8 /* Settings.plist in Resources */,
 				36183E021B7F8453005606C7 /* Images.xcassets in Resources */,
 				36183E051B7F8453005606C7 /* MainMenu.xib in Resources */,
+				36D5810F1B8609AE00B6EFB8 /* setMode.js in Resources */,
+				36D5810B1B8609AE00B6EFB8 /* constants.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3624E6991B7FA77600EE9A99 /* SettingsView.swift in Sources */,
+				36183E1F1B7F8D05005606C7 /* NodeInterface.swift in Sources */,
 				36183E001B7F8453005606C7 /* AppDelegate.swift in Sources */,
+				36D581021B8608F200B6EFB8 /* FirstRun.swift in Sources */,
+				3624E6961B7FA28700EE9A99 /* EventMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +460,7 @@
 				36183E161B7F8453005606C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36183E171B7F8453005606C7 /* Build configuration list for PBXNativeTarget "KeyboardControlerTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +469,7 @@
 				36183E191B7F8453005606C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
