@@ -48,14 +48,7 @@ import AppKit
         "white"
     ]
     
-     static let Effects : [String] = [
-        "Normal",
-        "Gaming",
-        "Breathe",
-        "Demo",
-        "Wave"
-    ]
-    
+      
     static func SetColor(zone : Int, color : String)->Bool{
         
          //let settings = NSDictionary(contentsOfFile: NSBundle.mainBundle().pathForResource("Settings", ofType: "plist")!)

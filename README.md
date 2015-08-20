@@ -15,3 +15,6 @@ Special thanks to:
 -NodeJS
 -wearefrectal
 
+TODO:
+
+get effects working
