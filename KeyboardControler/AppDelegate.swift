@@ -89,20 +89,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             }
     
 
-    let myNewWindow = NSWindow(contentRect: NSMakeRect(0,0,640,480), styleMask: NSBorderlessWindowMask, backing: NSBackingStoreType.Buffered, defer: false)
-          /*  NSBorderlessWindowMask  = 0,
-            NSTitledWindowMask  = 1 << 0,
-            NSClosableWindowMask  = 1 << 1,
-            NSMiniaturizableWindowMask  = 1 << 2,
-            NSResizableWindowMask  = 1 << 3,
-            NSTexturedBackgroundWindowMask  = 1 << 8*/
-
+    let settingswindow = NSWindow(contentViewController: NSViewController(nibName: "SettingsView", bundle: NSBundle.mainBundle())!)
+    
     @IBAction func btnNewWindow(sender: AnyObject) {
+        settingswindow.styleMask = NSClosableWindowMask | NSTitledWindowMask 
+        settingswindow.title = "Settings and Informations"
+        togglePopover(sender)
+        settingswindow.makeKeyAndOrderFront(self)
         
-        myNewWindow.opaque = false
-        myNewWindow.movableByWindowBackground = true
-        myNewWindow.backgroundColor = NSColor(hue: 0, saturation: 1, brightness: 0, alpha: 0.7)
-        myNewWindow.makeKeyAndOrderFront(nil)
+        
+     
+ 
+
     }
     // ----------------- Interface Functions----------------
     

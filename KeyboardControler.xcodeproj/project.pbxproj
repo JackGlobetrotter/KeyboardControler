@@ -13,8 +13,6 @@
 		36183E111B7F8453005606C7 /* KeyboardControlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36183E101B7F8453005606C7 /* KeyboardControlerTests.swift */; };
 		36183E1F1B7F8D05005606C7 /* NodeInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36183E1E1B7F8D05005606C7 /* NodeInterface.swift */; };
 		3624E6961B7FA28700EE9A99 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624E6951B7FA28700EE9A99 /* EventMonitor.swift */; };
-		3624E6991B7FA77600EE9A99 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624E6971B7FA77600EE9A99 /* SettingsView.swift */; };
-		3624E69A1B7FA77600EE9A99 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3624E6981B7FA77600EE9A99 /* SettingsView.xib */; };
 		36D581021B8608F200B6EFB8 /* FirstRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D581001B8608F200B6EFB8 /* FirstRun.swift */; };
 		36D581031B8608F200B6EFB8 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36D581011B8608F200B6EFB8 /* Settings.plist */; };
 		36D5810A1B8609AE00B6EFB8 /* apply.js in Resources */ = {isa = PBXBuildFile; fileRef = 36D581041B8609AE00B6EFB8 /* apply.js */; };
@@ -25,6 +23,8 @@
 		36D5810F1B8609AE00B6EFB8 /* setMode.js in Resources */ = {isa = PBXBuildFile; fileRef = 36D581091B8609AE00B6EFB8 /* setMode.js */; };
 		36D581121B860CF300B6EFB8 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 36D581111B860CF300B6EFB8 /* en.lproj */; };
 		36D581141B860D1F00B6EFB8 /* findKeyboard.js in Resources */ = {isa = PBXBuildFile; fileRef = 36D581131B860D1F00B6EFB8 /* findKeyboard.js */; };
+		36D5811F1B86275500B6EFB8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D5811D1B86275500B6EFB8 /* SettingsView.swift */; };
+		36D581201B86275500B6EFB8 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D5811E1B86275500B6EFB8 /* SettingsView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +48,6 @@
 		36183E101B7F8453005606C7 /* KeyboardControlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardControlerTests.swift; sourceTree = "<group>"; };
 		36183E1E1B7F8D05005606C7 /* NodeInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeInterface.swift; sourceTree = "<group>"; };
 		3624E6951B7FA28700EE9A99 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
-		3624E6971B7FA77600EE9A99 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		3624E6981B7FA77600EE9A99 /* SettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
 		36D581001B8608F200B6EFB8 /* FirstRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstRun.swift; path = ../FirstRun.swift; sourceTree = "<group>"; };
 		36D581011B8608F200B6EFB8 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Settings.plist; path = ../Settings.plist; sourceTree = "<group>"; };
 		36D581041B8609AE00B6EFB8 /* apply.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = apply.js; sourceTree = "<group>"; };
@@ -60,6 +58,8 @@
 		36D581091B8609AE00B6EFB8 /* setMode.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = setMode.js; sourceTree = "<group>"; };
 		36D581111B860CF300B6EFB8 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
 		36D581131B860D1F00B6EFB8 /* findKeyboard.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = findKeyboard.js; sourceTree = "<group>"; };
+		36D5811D1B86275500B6EFB8 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		36D5811E1B86275500B6EFB8 /* SettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +107,10 @@
 				36183E1E1B7F8D05005606C7 /* NodeInterface.swift */,
 				36D581111B860CF300B6EFB8 /* en.lproj */,
 				36183E011B7F8453005606C7 /* Images.xcassets */,
+				36D5811D1B86275500B6EFB8 /* SettingsView.swift */,
+				36D5811E1B86275500B6EFB8 /* SettingsView.xib */,
 				36183E031B7F8453005606C7 /* MainMenu.xib */,
-				3624E6971B7FA77600EE9A99 /* SettingsView.swift */,
 				36D581011B8608F200B6EFB8 /* Settings.plist */,
-				3624E6981B7FA77600EE9A99 /* SettingsView.xib */,
 				3624E6951B7FA28700EE9A99 /* EventMonitor.swift */,
 				36183DFD1B7F8453005606C7 /* Supporting Files */,
 			);
@@ -237,7 +237,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				36D581141B860D1F00B6EFB8 /* findKeyboard.js in Resources */,
-				3624E69A1B7FA77600EE9A99 /* SettingsView.xib in Resources */,
 				36D581121B860CF300B6EFB8 /* en.lproj in Resources */,
 				36D5810A1B8609AE00B6EFB8 /* apply.js in Resources */,
 				36D5810E1B8609AE00B6EFB8 /* setColor.js in Resources */,
@@ -246,6 +245,7 @@
 				36D581031B8608F200B6EFB8 /* Settings.plist in Resources */,
 				36183E021B7F8453005606C7 /* Images.xcassets in Resources */,
 				36183E051B7F8453005606C7 /* MainMenu.xib in Resources */,
+				36D581201B86275500B6EFB8 /* SettingsView.xib in Resources */,
 				36D5810F1B8609AE00B6EFB8 /* setMode.js in Resources */,
 				36D5810B1B8609AE00B6EFB8 /* constants.json in Resources */,
 			);
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3624E6991B7FA77600EE9A99 /* SettingsView.swift in Sources */,
+				36D5811F1B86275500B6EFB8 /* SettingsView.swift in Sources */,
 				36183E1F1B7F8D05005606C7 /* NodeInterface.swift in Sources */,
 				36183E001B7F8453005606C7 /* AppDelegate.swift in Sources */,
 				36D581021B8608F200B6EFB8 /* FirstRun.swift in Sources */,

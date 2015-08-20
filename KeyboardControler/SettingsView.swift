@@ -1,15 +1,18 @@
 //
 //  SettingsView.swift
-//  MSIKeyboard
+//  KeyboardControler
 //
-//  Created by Jakob on 14/08/2015.
-//  Copyright (c) 2015 private. All rights reserved.
+//  Created by Jakob on 20/08/2015.
+//  Copyright (c) 2015 Jakob. All rights reserved.
 //
 
 import Cocoa
 
-class SettingsView: NSView {
+class SettingsView: NSViewController {
 
-   
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do view setup here.
+    }
     
 }
