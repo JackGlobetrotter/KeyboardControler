@@ -48,7 +48,14 @@ import AppKit
         "white"
     ]
     
-      
+    
+    static let Effects :[String] = [
+    "off",
+    "blink",
+        "wave"
+    
+    ]
+    
     static func SetColor(zone : Int, color : String)->Bool{
         
          //let settings = NSDictionary(contentsOfFile: NSBundle.mainBundle().pathForResource("Settings", ofType: "plist")!)
