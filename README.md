@@ -1,5 +1,7 @@
 # KeyboardController
 
+--------ABANDONED-----------
+
 Application to set background color of Steelseries keyboard
 
 ——ALPHA STATE——
